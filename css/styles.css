@@ -52,11 +52,11 @@ a {
     color: #434455;
 }
 
-.main-section-1 {
+.main-section-hero {
     background-color: #2e2f42;
 }
 
-.main-section-1 .main-title {
+.main-section-hero .hero-title {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
@@ -65,7 +65,7 @@ a {
         text-align: center;
         color: #fff;
 }
-.main-section-1 .main-button {
+.main-section-hero .hero-button {
     background-color: #4d5ae5;
     cursor: pointer;
     font-weight: 500;
@@ -75,9 +75,23 @@ a {
     color: #fff;
 }
 
-.main-button:hover,
-.main-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404bbf;
+}
+
+.main-section-features .features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-section-features .features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .page-footer {
